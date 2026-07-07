@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" oncontextmenu="return false;">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="google-site-verification" content="Pm6ujyp6umkbjRoJcxSojmqTcrov4DpnbXx1kMHYTQc" />
+<meta name="robots" content="index, follow">
+<link rel="icon" type="image/x-icon" href="favicon.ico" />
+<title>Identicraft | Minecraft Avatar Rendering, CLI, and Serverless API</title>
+<meta name="description" content="Identicraft is a simple Minecraft avatar rendering library, CLI, and serverless API built in JavaScript. Available in Vercel Templates and NPM for personal or commercial use. The project is open-source and licensed under the MIT License.">
+<meta name="author" content="Shengwei Xiong">
+<meta name="keywords" content="Minecraft avatar renderer, Minecraft skin renderer, Minecraft avatar API, Minecraft rendering API, JavaScript Minecraft API, Node.js Minecraft renderer, Minecraft avatar NPM package, Minecraft skin NPM, Minecraft rendering CLI, Minecraft avatar CLI, Minecraft head renderer, Minecraft skin to image, Minecraft avatar generator, Minecraft API JavaScript">
+<meta property="og:title" content="Identicraft | Minecraft Avatar API" />
+<meta property="og:description" content="Identicraft is a simple Minecraft avatar rendering library, CLI, and serverless API built in JavaScript. Available in Vercel Templates and NPM for personal or commercial use. The project is open-source and licensed under the MIT License." />
+<meta property="og:image" content="https://identicraft.js.org/icon.png" />
+<meta property="og:url" content="https://identicraft.js.org" />
+<meta property="og:type" content="website" />
+<meta name="theme-color" content="#35A597" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Identicraft | Minecraft Avatar API">
+<meta name="twitter:description" content="Identicraft is a simple Minecraft avatar rendering library, CLI, and serverless API built in JavaScript. Available in Vercel Templates and NPM for personal or commercial use. The project is open-source and licensed under the MIT License.">
+<meta name="twitter:image" content="https://identicraft.js.org/icon.png">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/itsShiroharu/itsShiroharu.GitHub.io@main/app/globals.css" />
+<style>:root{--bg:#3A3A44;--bg-2:#434350;--panel:#40404B;--line:#4D4D5A;--lime:#35A597;--magenta:#92DEDA;--text:#EBE6E3;--muted:#B0ACA8;--mono:'JetBrains Mono',ui-monospace,monospace;--sans:'Inter',system-ui,sans-serif}*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{background:var(--bg);color:var(--text);font-family:var(--sans);overflow-x:hidden;background-image:radial-gradient(ellipse 900px 500px at 15% -10%,rgba(53,165,151,.1),transparent 60%),radial-gradient(ellipse 800px 500px at 100% 10%,rgba(146,222,218,.08),transparent 60%)}::selection{background:var(--lime);color:#1c1c22}a{color:inherit;text-decoration:none}.wrap{max-width:1180px;margin:0 auto;padding:0 32px}@keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}.hero{padding:96px 0 72px;position:relative}.hero-inner{justify-content:center}.hero-text{text-align:center;max-width:780px;margin:0 auto}.hero-text .cta-row{justify-content:center}.hero-text .lede{margin:26px auto 0;max-width:560px;text-align:center}h1{font-family:var(--mono);font-weight:800;letter-spacing:-.03em;font-size:clamp(40px,6.2vw,84px);line-height:.98;max-width:900px}.btn-primary{font-family:var(--mono);font-weight:700;font-size:14.5px;padding:14px 26px;background:var(--lime);color:#1c1c22;border-radius:8px;display:inline-flex;align-items:center;gap:10px;box-shadow:0 0 0 1px rgba(53,165,151,.4),0 0 24px rgba(53,165,151,.35);transition:transform .15s ease,box-shadow .15s ease}.btn-primary:hover{transform:translateY(-2px);box-shadow:0 0 0 1px rgba(53,165,151,.6),0 0 34px rgba(53,165,151,.55)}@media (max-width:760px){.install-box{flex-direction:column;align-items:center}.install-box>div{min-width:auto}.install-box .version-pill{margin-top:6px}}h2{font-family:var(--mono);font-size:clamp(28px,3.4vw,42px);font-weight:800;letter-spacing:-.02em}.install-box{display:flex;align-items:center;justify-content:center;gap:18px;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:22px 26px;font-family:var(--mono);font-size:15px;flex-wrap:wrap}.install-box>div{min-width:220px}.install-box .cmd{color:var(--text);margin-bottom:6px}.install-box .cmd span{color:var(--lime)}.install-box .install-meta{color:var(--muted);font-size:13px}.version-pill{display:inline-flex;align-items:center;gap:8px;color:var(--text);background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.08);border-radius:999px;padding:10px 14px;font-size:13px}.version-dot{width:10px;height:10px;border-radius:999px;background:var(--lime);box-shadow:0 0 12px rgba(53,165,151,.4)}.copy-btn{font-family:var(--mono);font-size:12.5px;padding:9px 16px;border:1px solid var(--line);border-radius:6px;color:var(--muted);cursor:pointer;transition:.2s;background:0 0}.copy-btn:hover{border-color:var(--lime);color:var(--lime)}.copy-btn.copied{background:var(--lime);color:#101010;border-color:transparent;box-shadow:0 6px 20px rgba(53,165,151,.18)}::-webkit-scrollbar{width:10px}::-webkit-scrollbar-track{background:var(--bg)}::-webkit-scrollbar-thumb{background:var(--line);border-radius:10px}</style>
+</head>
+
+<body>
+<div class="bg-grid"></div>
+<div class="glow-orb c1"></div>
+<div class="glow-orb c2"></div>
+<div class="glow-orb c3"></div>
+<header class="hero">
+  <div class="wrap hero-inner">
+    <div class="hero-text">
+      <h1>Identicraft</h1>
+      <div class="cta-row">
+        <div class="install-box">
+          <div>
+            <div class="cmd">$ <span>npm</span> install -g identicraft</div>
+            <div class="install-meta">Latest package version</div>
+          </div>
+          <div class="version-pill"><span class="version-dot"></span> v1.0.2</div>
+          <button class="copy-btn" type="button">Copy</button>
+        </div>
+      </div>
+      <p class="lede">
+        Identicraft is a simple Minecraft avatar rendering library, CLI, and serverless API built in JavaScript. Available in Vercel Templates and NPM for personal or commercial use. The project is open-source and licensed under the MIT License.
+      </p>
+      <div class="cta-row">
+        <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FitsShiroharu%2FIdenticraft&teamSlug=itsshiroharu" class="btn btn-primary">Deploy to Vercel →</a>
+        <a href="https://shiroharu.eu.org/tools/minecraft/avatar-render" class="btn btn-primary">View the Documentation →</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const btn = document.querySelector('.install-box .copy-btn');
+  const cmdEl = document.querySelector('.install-box .cmd');
+  if (!btn || !cmdEl) return;
+  let timer = null;
+  btn.addEventListener('click', () => {
+    const txt = cmdEl.innerText.replace(/^\$\s*/,'').trim();
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(txt).then(() => flash());
+    } else {
+      // fallback
+      const ta = document.createElement('textarea');
+      ta.value = txt;
+      ta.style.position = 'fixed'; ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.focus(); ta.select();
+      try { document.execCommand('copy'); flash(); } catch (e) { /* ignore */ }
+      document.body.removeChild(ta);
+    }
+  });
+
+  function flash() {
+    btn.classList.add('copied');
+    const prev = btn.innerText;
+    btn.innerText = 'Copied ✓';
+    if (timer) clearTimeout(timer);
+    timer = setTimeout(() => {
+      btn.classList.remove('copied');
+      btn.innerText = prev;
+      timer = null;
+    }, 1600);
+  }
+});
+</script>
+
+</body>
+</html>
