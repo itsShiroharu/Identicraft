@@ -11,7 +11,9 @@ import {
   renderCube,
   renderBody,
   renderBust,
-  getSkin
+  getSkin,
+  PlayerNotFoundError,
+  MojangRateLimitError
 } from './lib/minecraft.js';
 
 class Identicraft {
@@ -131,5 +133,7 @@ export {
   renderCube,
   renderBody,
   renderBust,
-  getSkin
+  getSkin,
+  PlayerNotFoundError,
+  MojangRateLimitError
 };
