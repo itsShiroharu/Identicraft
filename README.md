@@ -1,3 +1,4 @@
+Note: I cannot believe I am saying this. But this tools only look up and renders PREMIUM minecraft account. That means, cracked and offline account name (that doesn't exist in Minecraft Database) will always returns in 404, because simply, there was no account by that name at the first place. It seems some of the developers using my tool lacks common sense, because Minecraft itself is PAID, not free, and they repeatedly look up a non-existant (possibly cracked) names. If you'd like to develop a cracked support, Feel Free to Fork my Project and Deploy your Own :)
 
 # Identicraft
 
