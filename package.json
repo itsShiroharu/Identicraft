@@ -1,6 +1,6 @@
 {
   "name": "identicraft",
-  "version": "1.0.4",
+  "version": "1.0.3",
   "description": "Minecraft avatar rendering library, CLI, and serverless API",
   "main": "index.js",
   "type": "module",
