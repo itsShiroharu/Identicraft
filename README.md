@@ -1,4 +1,8 @@
-Note: I cannot believe I am saying this. But this tools only look up and renders PREMIUM minecraft account. That means, cracked and offline account name (that doesn't exist in Minecraft Database) will always returns in 404, because simply, there was no account by that name at the first place. It seems some of the developers using my tool lacks common sense, because Minecraft itself is PAID, not free, and they repeatedly look up a non-existant (possibly cracked) names. If you'd like to develop a cracked support, Feel Free to Fork my Project and Deploy your Own :)
+## Notes for Users and Developer before using this tool
+
+**This tool supports Premium/Paid Minecraft names (the one you buy from Microsoft). This tool does not support cracked names! I repeat, This tool does not support cracked names! That means, if your Minecraft names is from TLauncher, Ely.by, SKLauncher, or other cracked launcher, and the name isn't exist on Microsoft Database, this tool cannot render your skin, avatar, or anything else. Is that simple.**
+
+If you wish to add the support for cracked (stubborn aren't you?), a [Fork](https://github.com/itsShiroharu/Identicraft/fork) will always be welcome, and publish it yourself for this purpose.
 
 # Identicraft
 

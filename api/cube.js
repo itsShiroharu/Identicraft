@@ -30,14 +30,14 @@ export default async function handler(req, res) {
   } catch (error) {
     if (error instanceof PlayerNotFoundError) {
       res.setHeader('Cache-Control', 'public, max-age=600, s-maxage=600');
-      return res.status(404).json({ error: 'Player not found' });
+      return res.status(404).json({ error: '404 Error! Player is not exist. It could be a cracked Minecraft names, in which we do not support.' });
     }
     if (error instanceof MojangRateLimitError) {
       res.setHeader('Retry-After', '5');
-      return res.status(429).json({ error: 'Upstream rate limited, retry shortly' });
+      return res.status(429).json({ error: '429 Error! You are rate-limited. Please slow down from making any request! Or better yet, Deploy your own!' });
     }
     console.error('Cube error:', error);
     res.setHeader('Cache-Control', 'no-store');
-    return res.status(502).json({ error: 'Upstream error, try again' });
+    return res.status(502).json({ error: '502 Error! We got a weird response from the server. That means the server is broken for a while. Please do try again in a moment.' });
   }
 }
