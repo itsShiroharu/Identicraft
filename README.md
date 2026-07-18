@@ -1,20 +1,20 @@
 ## Notes for Users and Developer before using this tool
 
-**This tool supports Premium/Paid Minecraft names (the one you buy from Microsoft). This tool does not support cracked names! I repeat, This tool does not support cracked names! That means, if your Minecraft names is from TLauncher, Ely.by, SKLauncher, or other cracked launcher, and the name isn't exist on Microsoft Database, this tool cannot render your skin, avatar, or anything else. Is that simple.**
+**This tool ONLY supports Premium/Paid Minecraft names (the one you buy from Microsoft). This tool does not support cracked names! I repeat, This tool does not support cracked names! That means, if your Minecraft names is from TLauncher, Ely.by, SKLauncher, or other cracked launcher, and the name isn't exist on Microsoft Database, this tool cannot render your skin, avatar, or anything else.**
 
-If you wish to add the support for cracked (stubborn aren't you?), a [Fork](https://github.com/itsShiroharu/Identicraft/fork) will always be welcome, and publish it yourself for this purpose.
+If you wish to add the support for cracked, a [Fork](https://github.com/itsShiroharu/Identicraft/fork) will always be welcome, and publish it yourself for this purpose.
 
 # Identicraft
 
 A Minecraft avatar rendering library, CLI, and serverless API.
 
 ## Features
-1. 🎨 Custom rendering using @napi-rs/canvas
-2. ⚡ Serverless deployment on Vercel
-3. 🔄 Automatic UUID resolution from usernames
-4. 💾 Built-in caching
-5. 🖼️ Multiple rendering modes
-6. 🖥️ CLI tool for local rendering
+1. Custom rendering using @napi-rs/canvas
+2. Serverless deployment on Vercel
+3. Automatic UUID resolution from usernames
+4. Built-in caching
+5. Multiple rendering modes
+6. CLI tool for local rendering
 
 ## API Endpoints
 
